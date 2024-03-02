@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 export XDG_DATA_HOME=$HOME/.local/share 
 export XDG_CONFIG_HOME=$HOME/.config
 export XDG_STATE_HOME=$HOME/.local/state 
 export XDG_CACHE_HOME=$HOME/.cache
 # Put "test -r /path/to/.bashconfig && source /path/to/.bashconfig" in ~/.bashrc
+=======
+export XDG_DATA_HOME=$HOME/.local/share
+export XDG_CONFIG_HOME=$HOME/.config
+export XDG_STATE_HOME=$HOME/.local/state
+export XDG_CACHE_HOME=$HOME/.cache
+# Put "test -r /path/to/.bashconfig && source /path/.bashconfig" in ~/.bashrc
+>>>>>>> be64be21f84011a5314ae3ab6864b91693b0e391
 
 export PS1="\[\e[31m\]\u\[\e[m\]@\[\e[92m\]\h\[\e[m\]:\[\e[36m\]\w\[\e[m\]\\$ "
 # For the second line:
