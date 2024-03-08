@@ -1,0 +1,5 @@
+set recolor "true"
+set recolor-keephue
+set default-bg rgba(40,44,52,0.8)
+set recolor-lightcolor rgba(0,0,0,0)
+set adjust-open "width"
