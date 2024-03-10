@@ -1,4 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PACKAGE IMPORTS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -721,4 +721,38 @@
 	  \end{tikzpicture}}%
 	\@starttoc{toc}}
 \makeatother
+" > preamble.tex
 
+echo "\documentclass{report}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% AVAILABLE SECTIONS %%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \dfn{Title}{Contents}  - Definition
+% \qs{Title}{Contents}   - Question
+% \nt{Contents}          - Note
+% \clm{Title}{}{Content} - Claim
+% \ex{Title}{Contents}   - Example
+% \thm{Title}{Contents}  - Theorem
+%% OTHERS %%
+% \begin{myproof}.., \cor, \mlenma, \mprop, \begin{algorithm}
+
+\input{preamble}
+
+\title{\huge{Some Class\\\\Random Examples}}
+\author{\huge{Your Name}}
+\date{}
+
+\begin{document}
+\maketitle
+
+\newpage
+\pdfbookmark[section]{\contentsname}{toc}
+\tableofcontents
+\pagebreak
+
+\chapter{}
+\section{Section 1}
+
+\end{document}
+" > main.tex
