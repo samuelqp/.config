@@ -1,0 +1,4 @@
+if [ -f "scripts/main.js" ] && [ -f "styles/style.css" ] && [ -f index.html ]
+then
+  nvim -o scripts/main.js index.html styles/style.css -c "wincmd H"
+fi
