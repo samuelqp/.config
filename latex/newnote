@@ -5,7 +5,6 @@ echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \usepackage[tmargin=2cm,rmargin=1in,lmargin=1in,margin=0.85in,bmargin=2cm,footskip=.2in]{geometry}
 \usepackage{amsmath,amsfonts,amsthm,amssymb,mathtools}
-\usepackage[varbb]{newpxmath}
 \usepackage{xfrac}
 \usepackage{bookmark}
 \usepackage{enumitem}
@@ -26,6 +25,7 @@ echo "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage{lmodern}
 \usepackage[T1]{fontenc}
 \usepackage{tikzsymbols}
+% \usepackage[varbb]{newpxmath}
 % \usepackage[makeroom]{cancel}
 % \usepackage{mathtools}
 % \usepackage{etoolbox}
